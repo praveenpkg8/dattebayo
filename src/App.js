@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import svkLargeLogo from './svkLargeLogo.png';
 import './App.css';
 
 import Navbar from './navbar/Navbar';
@@ -8,7 +8,12 @@ function App() {
     <div className="App">
       <Navbar />
       <header className="App-header">
-        <img src={logo}  alt="logo" />
+        <img 
+        className="SvkLargeImage"
+        src={svkLargeLogo}  
+        alt="logo" 
+        draggable="false" 
+        />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
