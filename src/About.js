@@ -1,21 +1,20 @@
-import React, { useRef }  from 'react'
+import React, { useRef } from 'react'
 import './About.css';
 
 import AboutContent from './aboutContent.json'
 
 
 const About = (_, ref) => {
-    return  (
+    return (
         <>
-        <div ref={ref} className="AboutMainContainer">
-            <div className="AbtTittleContainer">
-                <h1>
-                    About
-                </h1>    
-            </div>    
-            <div className="AbtSectionContainer">
-                <div className="AbtSecTop">
-                    <div className="AbtSecCont AbtSecCont1">
+            <div ref={ref} className="AboutMainContainer">
+                <div className="AbtHeader">
+                    <h1>
+                        About
+                    </h1>
+                </div>
+                <div className='AbtSecWrapper'>
+                    <div className="AbtSec AbtSec-1 AbtSecTile">
                         <h2>
                             {AboutContent.About1.tittle}
                         </h2>
@@ -23,7 +22,7 @@ const About = (_, ref) => {
                             {AboutContent.About1.content}
                         </div>
                     </div>
-                    <div className="AbtSecCont AbtSecCont2">
+                    <div className="AbtSec AbtSec-2 AbtSecTile2">
                         <h2>
                             {AboutContent.About2.tittle}
                         </h2>
@@ -31,9 +30,7 @@ const About = (_, ref) => {
                             {AboutContent.About2.content}
                         </div>
                     </div>
-                </div>
-                <div className='AbtSecBottom'>
-                    <div className="AbtSecCont AbtSecCont3">
+                    <div className="AbtSec AbtSec-3 AbtSecTile2">
                         <h2>
                             {AboutContent.About3.tittle}
                         </h2>
@@ -41,7 +38,7 @@ const About = (_, ref) => {
                             {AboutContent.About3.content}
                         </div>
                     </div>
-                    <div className="AbtSecCont AbtSecCont4">
+                    <div className="AbtSec  AbtSecTile AbtSec-4">
                         <h2>
                             {AboutContent.About4.tittle}
                         </h2>
@@ -51,8 +48,8 @@ const About = (_, ref) => {
                     </div>
                 </div>
             </div>
-        </div>
-        
+
+
         </>
     );
 }
