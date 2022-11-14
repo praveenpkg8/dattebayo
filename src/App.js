@@ -1,18 +1,23 @@
+import React, { useRef } from 'react';
 import svkLargeLogo from './svkLargeLogo.png';
 import './App.css';
 
 import Navbar from './navbar/Navbar';
+import About from './About';
 
 function App() {
+
+  const AboutRef = useRef();
+
   return (
     <div className="App">
-      <Navbar />
+      <Navbar aboutRefTest={AboutRef} />
       <header className="App-header">
-        <img 
-        className="SvkLargeImage"
-        src={svkLargeLogo}  
-        alt="logo" 
-        draggable="false" 
+        <img
+          className="SvkLargeImage"
+          src={svkLargeLogo}
+          alt="logo"
+          draggable="false"
         />
         <a
           className="App-link"
@@ -23,6 +28,7 @@ function App() {
           Schummy Vanna Kaviyangal
         </a>
       </header>
+      <About ref={AboutRef} />
     </div>
   );
 }
