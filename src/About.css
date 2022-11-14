@@ -1,51 +1,70 @@
-.About {
-    width: 100vw;
-}
-
 .AboutMainContainer {
-    background-color: rgb(161, 56, 232);
-}
-
-.AbtTittleContainer {
-    justify-content: right;
-    display: flex;
-}
-
-.AbtTittleContainer h1 {
-    color: rgb(250, 238, 86);
-    padding-right: 5vh;
-    text-shadow: -1px 0 black, 0 6px black, 4px 7px 9px black, 0 -1px black;
-    font-size: 10vh;
-    margin: 0;
-}
-
-.AbtSectionContainer {
-    display: flex;
-    flex-direction: column;
+    background-color: #0119ff;
+    height: 100vh;
 
 }
 
-.AbtSecTop {
-    display: flex;
+.AbtSecWrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: #0119ff;
+    row-gap: 4vh;
+    column-gap: 4vh;;
 }
 
-.AbtSecBottom {
-    display: flex;
+
+.AbtSec {
+    z-index:10;
 }
 
-.AbtSecCont {
-    margin: 5vh;
+
+.AbtSec-1 {
+    z-index: 1;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0 -4vh -12vh 4vh;
 }
 
-.AbtSecCont1 {
+.AbtSec-2 {
+    z-index: 3;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0 10vh 4vh 8vh;
+}
+
+.AbtSec-3 {
+    z-index: 1;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 9vh 8vh 0vh 8vh;
+}
+
+.AbtSec-4 {
+    z-index: 2;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: -4vh 20vh 4vh -4vh;
+}
+.AbtHeader {
+    grid-column: 1 / 3; 
+    display: grid;
+}
+.AbtHeader h1 {
+    color: rgb(231, 51, 247);
+    font-size: 4vh;
+    text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
+    font-family: Arial;
+    font-size: 6vh;
+    grid-column: 3 / 3; 
+}
+
+.AbtSecTile {
     background-color: rgb(250, 238, 86);
     border-radius: 3vh 3vh 0 0;
-    margin-left: 5vh;
-    align-items: flex-start;
-
-
 }
-.AbtSecCont1 h2{
+
+.AbtSecTile h2{
     background-color: rgb(255, 255, 255);
     border-radius: 3vh 3vh 0 0;
     border-bottom-style: solid;
@@ -56,41 +75,14 @@
 }
 
 
-.AbtSecCont2 h2{
+
+.AbtSecTile2 h2{
     color: rgb(231, 51, 247);
     font-size: 4vh;
     text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
     font-family: Arial;
     font-size: 6vh;
+    margin: 0 0 2vh 0;
 
-
-}
-
-.AbtSecCont3 h2{
-    color: rgb(231, 51, 247);
-    font-size: 4vh;
-    text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
-    font-family: Arial;
-    font-size: 6vh;
-
-
-}
-
-
-.AbtSecCont4 {
-    background-color: rgb(250, 238, 86);
-    border-radius: 3vh 3vh 0 0;
-    margin-left: 5vh;
-    align-items: flex-start;
-
-
-}
-.AbtSecCont4 h2{
-    background-color: rgb(255, 255, 255);
-    border-radius: 3vh 3vh 0 0;
-    border-bottom-style: solid;
-    border-bottom-color: black;
-    margin: 0;
-    font-size: 6vh;
 
 }
