@@ -1,0 +1,96 @@
+.About {
+    width: 100vw;
+}
+
+.AboutMainContainer {
+    background-color: rgb(161, 56, 232);
+}
+
+.AbtTittleContainer {
+    justify-content: right;
+    display: flex;
+}
+
+.AbtTittleContainer h1 {
+    color: rgb(250, 238, 86);
+    padding-right: 5vh;
+    text-shadow: -1px 0 black, 0 6px black, 4px 7px 9px black, 0 -1px black;
+    font-size: 10vh;
+    margin: 0;
+}
+
+.AbtSectionContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.AbtSecTop {
+    display: flex;
+}
+
+.AbtSecBottom {
+    display: flex;
+}
+
+.AbtSecCont {
+    margin: 5vh;
+}
+
+.AbtSecCont1 {
+    background-color: rgb(250, 238, 86);
+    border-radius: 3vh 3vh 0 0;
+    margin-left: 5vh;
+    align-items: flex-start;
+
+
+}
+.AbtSecCont1 h2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 3vh 3vh 0 0;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    margin: 0;
+    font-size: 6vh;
+
+}
+
+
+.AbtSecCont2 h2{
+    color: rgb(231, 51, 247);
+    font-size: 4vh;
+    text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
+    font-family: Arial;
+    font-size: 6vh;
+
+
+}
+
+.AbtSecCont3 h2{
+    color: rgb(231, 51, 247);
+    font-size: 4vh;
+    text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
+    font-family: Arial;
+    font-size: 6vh;
+
+
+}
+
+
+.AbtSecCont4 {
+    background-color: rgb(250, 238, 86);
+    border-radius: 3vh 3vh 0 0;
+    margin-left: 5vh;
+    align-items: flex-start;
+
+
+}
+.AbtSecCont4 h2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 3vh 3vh 0 0;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    margin: 0;
+    font-size: 6vh;
+
+}
