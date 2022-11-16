@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './navbar/Navbar';
 import LandingPage from './LandingPage';
 import About from './About';
+import Donation from './Donation';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Navbar aboutRefTest={AboutRef} />
       <LandingPage />
       <About ref={AboutRef} />
+      <Donation> </Donation>
     </div>
   );
 }
