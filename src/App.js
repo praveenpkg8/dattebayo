@@ -3,6 +3,7 @@ import svkLargeLogo from './svkLargeLogo.png';
 import './App.css';
 
 import Navbar from './navbar/Navbar';
+import LandingPage from './LandingPage';
 import About from './About';
 import Donation from './Donation';
 
@@ -13,22 +14,7 @@ function App() {
   return (
     <div className="App">
       <Navbar aboutRefTest={AboutRef} />
-      <header className="App-header">
-        <img
-          className="SvkLargeImage"
-          src={svkLargeLogo}
-          alt="logo"
-          draggable="false"
-        />
-        <a
-          className="App-link"
-          href="https://direct.me/schumyvannakaviyangal"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Schummy Vanna Kaviyangal
-        </a>
-      </header>
+      <LandingPage />
       <About ref={AboutRef} />
       <Donation> </Donation>
     </div>

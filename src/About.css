@@ -9,7 +9,7 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     row-gap: 4vh;
-    column-gap: 4vh;;
+    column-gap: 4vh;
 }
 
 
@@ -88,25 +88,30 @@
 
 } 
 
+@media screen and (max-width: 1350px) {
+    .AboutMainContainer {
+        height: 100%;
+    }
+}
 
 @media screen and (max-width: 700px)  {
     .AboutMainContainer {
         background-color: #0119ff;
         height: 100%;
     }
-
     .AbtSecWrapper {
         display: grid;
-        /* grid-template-rows: 1fr 1fr; */
+        grid-template-rows: 1fr ;
         grid-template-columns: 1fr;
-        row-gap: 4vh;
-        column-gap: 4vh;;
+        row-gap: 0;
+        column-gap: 0;
     }
     .AbtSec-1 {
         z-index: inherit;
         grid-column: auto;
         grid-row: auto;
         margin: auto;
+        padding: 2vh;
 
     }
     .AbtSec-2 {
@@ -114,13 +119,14 @@
         grid-column: auto;
         grid-row: auto;
         margin: auto;
-
+        padding: 2vh;
     }
     .AbtSec-3 {
         z-index: inherit;
         grid-column: auto;
         grid-row: auto;
-        margin: auto;
+        margin: 0;
+        padding: 2vh;
 
     }
     .AbtSec-4 {
@@ -128,10 +134,10 @@
         grid-column: auto;
         grid-row: auto;
         margin: auto;
+        padding: 2vh;
 
     }
     .AbtHeader {
-        /* grid-column: 1 / 3;  */
         display: grid;
     }
     .AbtHeader h1 {
@@ -145,6 +151,7 @@
     
     .AbtSecTile {
         background-color: rgb(250, 238, 86);
+        background-color: transparent;
         border-radius: 4vh 4vh 0 0;
     }
     
@@ -153,21 +160,32 @@
         border-radius: 5vh 5vh 0 0;
         border-bottom-style: solid;
         border-bottom-color: black;
+        font-size: 3vh;
+        margin: 0;
+    }
+    .AbtSecTile div {
+        background-color: rgb(250, 238, 86);
+        border-bottom-style: solid;
+        border-bottom-color: black;
         margin: 0;
         font-size: 2vh;
+        padding: 2vh;
     }
-    
     
     
     .AbtSecTile2 h2{
         color: rgb(231, 51, 247);
-        font-size: 4vh;
         text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
         font-family: Arial;
         font-size: 3vh;
+        margin-bottom: 1vh;
+    }
+
+    .AbtSecTile2 div{
+        color: white;
         margin: 0;
-    
-    
+        font-size: 2vh;
+        padding: 2vh;
     }
     
 }
