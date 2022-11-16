@@ -4,6 +4,7 @@ import './App.css';
 
 import Navbar from './navbar/Navbar';
 import About from './About';
+import Donation from './Donation';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         </a>
       </header>
       <About ref={AboutRef} />
+      <Donation> </Donation>
     </div>
   );
 }
