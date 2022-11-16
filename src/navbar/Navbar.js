@@ -4,7 +4,7 @@ import '../css/Navbar.css';
 
 
 const scrollToSection = (reference) => {
-    reference.current.scrollIntoView({ block: 'end', behavior: 'smooth' });
+    reference.current.scrollIntoView({ block: 'start', behavior: 'smooth' });
 }
 
 const Navbar = React.forwardRef((props, _) => {
