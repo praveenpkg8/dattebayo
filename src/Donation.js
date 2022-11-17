@@ -5,7 +5,7 @@ const Donation = () => {
   return (
     <>
       <div class="grid-container">
-        <div class="title">
+        <div class="donationHeader">
           <h1>DONATION🤑</h1>
         </div>
         <div class="flex-container">
