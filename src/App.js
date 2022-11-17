@@ -6,6 +6,7 @@ import Navbar from './navbar/Navbar';
 import LandingPage from './LandingPage';
 import About from './About';
 import Donation from './Donation';
+import SocialMedia from './SocialMedia';
 
 function App() {
 
@@ -16,7 +17,9 @@ function App() {
       <Navbar aboutRefTest={AboutRef} />
       <LandingPage />
       <About ref={AboutRef} />
+      <SocialMedia></SocialMedia>
       <Donation> </Donation>
+      
     </div>
   );
 }
