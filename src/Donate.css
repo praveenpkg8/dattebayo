@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+    background-color: cornflowerblue;
+    height: 100vh;
+
+    
+
+   
+}
+.title {
+    z-index: 3;
+    grid-column: 3/4;
+    grid-row: 1/4;
+    margin: 0 10vh 4vh 8vh;
+    color: rgb(188, 188, 80);
+    font-size: 3vh;
+    text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
+    
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    
+}
+.flex-container1{
+    justify-content: space-between;
+}
+.buymeacoffee {
+    flex: 3;
+    width: 25;
+}
+.patreon {
+    flex: 3;
+    width: 25;
+}
+.familypack {
+    flex: 3;
+    width: 25;
+}
