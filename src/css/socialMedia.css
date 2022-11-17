@@ -1,5 +1,5 @@
 .socialMediaMainContainer {
-    background-color: rgb(214, 6, 241);
+    background-color: #0119ff;
     height: 100vh;
 
 }
@@ -77,7 +77,7 @@
 
 @media screen and (max-width: 700px) {
     .socialMediaMainContainer {
-        background-color: rgb(214, 6, 241);
+        background-color: #0119ff;
         height: 100%;
     }
 
