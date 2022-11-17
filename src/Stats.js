@@ -12,12 +12,6 @@ const Stat = () => {
 
             <div>
                 <h2 align = "left">Total Views</h2>                
-                <div class="card text-white bg-primary mb-3">
-                    <div class="card-header">Total Views</div>
-                    <div class="card-body">
-                        <h5 class="card-title">99,999,999</h5>
-                    </div>
-                </div>
             </div>
 
             <div>
