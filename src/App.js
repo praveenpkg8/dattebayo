@@ -2,8 +2,10 @@ import React, { useRef } from 'react';
 import svkLargeLogo from './svkLargeLogo.png';
 import './App.css';
 
+
 import Navbar from './navbar/Navbar';
 import About from './About';
+import Stat from './Stats';
 
 function App() {
 
@@ -29,6 +31,7 @@ function App() {
         </a>
       </header>
       <About ref={AboutRef} />
+      <Stat ></Stat>
     </div>
   );
 }
