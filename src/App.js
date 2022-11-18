@@ -12,15 +12,20 @@ import SocialMedia from './SocialMedia';
 
 function App() {
 
-  const AboutRef = useRef();
+  const aboutRef = useRef();
+  const socialMediaRef = useRef();
+
 
   return (
     <div className="App">
-      <Navbar aboutRefTest={AboutRef} />
-      <LandingPage />
-      <About ref={AboutRef} />
+      {/* <Navbar aboutRefTest={AboutRef} /> */}
+      <LandingPage 
+      aboutRef={aboutRef}
+      socialMediaRef={socialMediaRef}
+      />
+      <About ref={aboutRef} />
+      <SocialMedia ref={socialMediaRef} />
       <Stat ></Stat>
-      <SocialMedia></SocialMedia>
       <Donation> </Donation>
       
     </div>
