@@ -1,39 +1,26 @@
-.grid-container {
-    display: grid;
-    background-color: cornflowerblue;
+.donationMainContainer {
+    background-color: #0119ff;
     height: 100vh;
 
-    
+}
 
-   
+.donationHeader {
+    display: grid;
+    grid-column: 1/3;
+    justify-content: end;
 }
-.title {
-    z-index: 3;
-    grid-column: 3/4;
-    grid-row: 1/4;
-    margin: 0 10vh 4vh 8vh;
-    color: rgb(188, 188, 80);
-    font-size: 3vh;
+.donationHeader h1 {
+    color: rgb(229, 242, 52);
+    font-size: 4vh;
     text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
-    
+    font-family: Arial;
+    font-size: 6vh;
+    grid-column: 3 / 3; 
 }
-.flex-container {
-    display: flex;
-    align-items: center;
-    
-}
-.flex-container1{
-    justify-content: space-between;
-}
-.buymeacoffee {
-    flex: 3;
-    width: 25;
-}
-.patreon {
-    flex: 3;
-    width: 25;
-}
-.familypack {
-    flex: 3;
-    width: 25;
+.donationSecWrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 4vh;
+    column-gap: 4vh;
 }
