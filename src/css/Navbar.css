@@ -5,3 +5,20 @@
     align-items: center;
     cursor: default;
 }
+
+.navButton {
+    background-color: white;
+    border-radius: 16vh;
+    width: 10%;
+    cursor: pointer;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: black;
+    color: #0119ff;
+    font-weight: bold;
+}
