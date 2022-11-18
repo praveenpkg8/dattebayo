@@ -108,14 +108,14 @@ const LandingPage = (props) => {
                     src={backDrop1}
                     alt="logo"
                     draggable="false"
-                    style={{ transform: `translateX(${((xPost + 8) / 500)}px) translateY(${((yPost - 8) / 400)}%)` }}
+                    style={{ transform: `translateX(${((xPost + 8) / 1750)}px) translateY(${((yPost - 8) / 1750)}%)` }}
                 />
                 <img
                     className="backDrop2"
                     src={backDrop2}
                     alt="logo"
                     draggable="false"
-                    style={{ transform: `translateX(${((xPost + 8) / 600)}px) translateY(${((yPost - 8) / 300)}%)` }}
+                    style={{ transform: `translateX(${((xPost + 8) / 1750)}px) translateY(${((yPost - 8) / 1750)}%)` }}
                 />
             </div>
         </>
