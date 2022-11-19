@@ -33,39 +33,59 @@ const SocialMedia = (_, ref) => {
                     <div className="grid-container">
 
                         <div class="grid-item">
+                            <a 
+                            href='https://www.instagram.com/haashiraamaa_senju_svk/'
+                            target="_blank"
+                            >
                             <img
                                 className="SvkLargeImage"
                                 src={hashiramalogo}
                                 alt="logo"
                                 draggable="false"
                             />
+                            </a>
                             <h1 className="avatarText">Hashirama Senju</h1>
                         </div>
                         <div class="grid-item">
+                            <a
+                            href='https://www.instagram.com/kisamesvk/'
+                            target="_blank"
+                            >
                             <img
                                 className="SvkLargeImage"
                                 src={kisamelogo}
                                 alt="logo"
                                 draggable="false"
                             />
+                            </a>
                             <h1 className="avatarText">Kisame</h1>
                         </div>
                         <div class="grid-item">
+                            <a
+                            href='https://www.instagram.com/tobiramasenju_svk/'
+                            target='_blank'
+                            >
                             <img
                                 className="SvkLargeImage"
                                 src={tobilogo}
                                 alt="logo"
                                 draggable="false"
                             />
+                            </a>
                             <h1 className="avatarText">Tobirama Senju</h1>
                         </div>
                         <div class="grid-item">
+                            <a
+                            href="https://www.instagram.com/kakashi_hatake_svk/"
+                            target="_blank"
+                            >
                             <img
                                 className="SvkLargeImage"
                                 src={kakashilogo}
                                 alt="logo"
                                 draggable="false"
                             />
+                            </a>
                             <h1 className="avatarText">Kakashi Hatake</h1>
                         </div>
                     </div>
