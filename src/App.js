@@ -25,7 +25,7 @@ function App() {
       />
       <About ref={aboutRef} />
       <SocialMedia ref={socialMediaRef} />
-      <Stat ></Stat>
+      <Stat ></Stat> 
       <Donation> </Donation>
       
     </div>
