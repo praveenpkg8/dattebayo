@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
 .donationMainContainer {
     background-color: #0119ff;
     height: 100vh;
@@ -6,21 +12,197 @@
 
 .donationHeader {
     display: grid;
-    grid-column: 1/3;
-    justify-content: end;
+    grid-column-start: auto;
+    grid-column: 3 / 3;
+    column-gap: 500px;
+    justify-content: center;
+    
 }
+
 .donationHeader h1 {
     color: rgb(229, 242, 52);
     font-size: 4vh;
-    text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
-    font-family: Arial;
+    font-family: "Arial, Helvetica, sans-serif",fantasy;
+    text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 5px 10px black;
+    
     font-size: 6vh;
-    grid-column: 3 / 3; 
+    grid-column: 3 / 3;
+    grid-row: 2;
 }
+
+.donationcontainer {
+    position: relative;
+    width: 1300px;
+    height: 400px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* row-gap: 4vh;
+    column-gap: 4vh; */
+
+}
+.perk {
+    display: grid;   
+    justify-content: left;
+    color: #0219fd;
+    text-shadow: 1px 0 black, 2px 3px 6px black;
+    font-size: medium;
+}
+
+.donationcontainer .donbox {
+    position: relative;
+    width: calc(300px - 20px);
+    height: calc(550px - 30px);
+    background: #fced22;
+    float: left;
+    margin: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 30px;
+    border-color: #000;
+    box-shadow: 8px 0 black, 2px 3px 6px black, 2px 8px 9px black, 5px 10px black;
+
+}
+
+.patbox {
+    position: relative;
+    width: calc(300px - 20px);
+    height: calc(550px - 30px);
+    background: #f97449;
+    float: left;
+    margin: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: -1px 0 black, 8px 3px 6px black, 2px 8px 9px black, 5px 10px black;
+
+}
+
+.ytbox {
+    width: calc(300px - 20px);
+    height: calc(550px - 30px);
+    background-color: #ff696a;
+    float: left;
+    margin: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: -1px 0 black, 8px 3px 6px black, 2px 8px 9px black, 5px 10px black;
+}
+
+.donbox h2 {
+    background: #ffdd00;
+    height: 6vh;
+    
+    box-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 20px 10px black;
+}
+.patbox h2 {
+    background: #ef460f;
+    height: 6vh;
+    box-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 20px 10px black;
+}
+.ytbox h2 {
+    background: #fe0000;
+    height: 6vh;
+    box-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 20px 10px black;
+}
+.btn {
+    text-decoration: none;
+    padding: 5px 30px;
+    font-size: 1.25rem;
+    font-family: fantasy;
+    position: relative;
+    left: 70px;
+    margin: 32px;
+    background: white;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 5px 10px black;
+    color: red;
+    border-radius: 30px;
+    text-align: right;
+    transition: transform 0.8s ease;
+    overflow: hidden;
+
+
+}
+
+/* .coffeebtn {
+    
+    background-color: white;
+    border-radius: 16vh;
+    width: 10%;
+    cursor: pointer;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: black;
+    color: #0119ff;
+    font-weight: bold;
+    text-shadow: -1px 0 black;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+
+}  */
+/* .patbtn {
+    background: white;
+    border-style: solid;
+    border-color: black;
+    color: red;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+.ytbtn {
+    background: white;
+    border-style: solid;
+    border-color: black;
+    color: red;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+} */
+
+.btn::after, .btn::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    background: #000;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+.btn:hover {
+    transform: translate(-12px, -12px);
+}
+.btn:hover::after {
+    transform: translate(6px, 6px);
+}
+.btn:hover::before {
+    transform: translate(12px, 12px);
+}
+/* .donationHeader {
+    display: grid;
+    grid-column: 1/3;
+    justify-content: end;
+}
+
 .donationSecWrapper {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 4vh;
     column-gap: 4vh;
-}
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 250px auto;
+} */
