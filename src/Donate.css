@@ -50,7 +50,6 @@ body {
 .brndbox {
     display: grid;
     width: 100%;
-    margin-bottom: 10px;
     box-sizing: content-box;
     margin: 50px 0px auto;
     box-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 20px 10px black;
@@ -81,8 +80,6 @@ body {
     display: grid;
     justify-content: left;
     height: 40px;
-    /* color: #0219fd;
-    text-shadow: 1px 0 black, 2px 3px 6px black; */
     -webkit-text-fill-color: blue;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
