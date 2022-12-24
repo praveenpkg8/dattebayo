@@ -17,10 +17,10 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar aboutRefTest={AboutRef} /> */}
-      <LandingPage 
+      {/* <LandingPage 
       aboutRef={aboutRef}
       socialMediaRef={socialMediaRef}
-      />
+      /> */}
       <About ref={aboutRef} />
       <SocialMedia ref={socialMediaRef} />
       <Stat ></Stat> 
