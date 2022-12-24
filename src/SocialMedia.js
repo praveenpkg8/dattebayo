@@ -1,7 +1,7 @@
 import React from 'react'
 import './css/socialMedia.css';
 
-import AboutContent from './aboutContent.json'
+import URLS from './urls.json'
 import svkLargeLogo from './svkLargeLogo.png';
 import haashiraamaaSocial from './assets/socialMedia/haashi.png';
 import logoSocial from './assets/socialMedia/logoSocial.png';
@@ -18,91 +18,6 @@ import kakashilogo from './assets/kakashi_avatar.png';
 
 
 
-// const SocialMedia = (_, ref) => {
-//     return (
-//         <>
-//             <div ref={ref} className="socialMediaMainContainer">
-//                 <div className="socialMediaHeader">
-//                     <h1>
-//                         Social Media
-//                     </h1>
-//                 </div>
-//                 <div className='socialMediaSecWrapper'>
-//                     <div className=" socialMediaSec-1 ">
-//                         <div className="svkLogo">
-//                             <img
-//                                 className="SvkLargeImage"
-//                                 src={svkLargeLogo}
-//                                 alt="logo"
-//                                 draggable="false"
-//                             />
-//                         </div>
-//                     </div>
-//                     <div className="grid-container">
-
-//                         <div class="grid-item">
-//                             <a 
-//                             href='https://www.instagram.com/haashiraamaa_senju_svk/'
-//                             target="_blank"
-//                             >
-//                             <img
-//                                 className="SvkLargeImage"
-//                                 src={hashiramalogo}
-//                                 alt="logo"
-//                                 draggable="false"
-//                             />
-//                             </a>
-//                             <h1 className="avatarText">Hashirama Senju</h1>
-//                         </div>
-//                         <div class="grid-item">
-//                             <a
-//                             href='https://www.instagram.com/kisamesvk/'
-//                             target="_blank"
-//                             >
-//                             <img
-//                                 className="SvkLargeImage"
-//                                 src={kisamelogo}
-//                                 alt="logo"
-//                                 draggable="false"
-//                             />
-//                             </a>
-//                             <h1 className="avatarText">Kisame</h1>
-//                         </div>
-//                         <div class="grid-item">
-//                             <a
-//                             href='https://www.instagram.com/tobiramasenju_svk/'
-//                             target='_blank'
-//                             >
-//                             <img
-//                                 className="SvkLargeImage"
-//                                 src={tobilogo}
-//                                 alt="logo"
-//                                 draggable="false"
-//                             />
-//                             </a>
-//                             <h1 className="avatarText">Tobirama Senju</h1>
-//                         </div>
-//                         <div class="grid-item">
-//                             <a
-//                             href="https://www.instagram.com/kakashi_hatake_svk/"
-//                             target="_blank"
-//                             >
-//                             <img
-//                                 className="SvkLargeImage"
-//                                 src={kakashilogo}
-//                                 alt="logo"
-//                                 draggable="false"
-//                             />
-//                             </a>
-//                             <h1 className="avatarText">Kakashi Hatake</h1>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </div>
-//         </>
-//     );
-// }
-
 
 const SocialMedia = (_, ref) => {
     return (
@@ -114,42 +29,92 @@ const SocialMedia = (_, ref) => {
                     </h1>
                 </div>
                 <div className='socialMediaSecWrapper'>
+                    <div
+                        className="imageSize"
+                    >
+                        <a 
+                            href={URLS.socialMediaURLS.svk}
+                            target="_blank"
+                        >
                         <img
-                            className="imageSize"
                             src={logoSocial}
                             alt="logo"
                             draggable="false"
                         />
+                        </a>
+                        
+                    </div>
+                    <div
+                        className="imageSize"
+                    >
+                        <a 
+                            href={URLS.socialMediaURLS.haashiraamaa}
+                            target="_blank"
+                        >
                         <img
-                            className="imageSize"
                             src={haashiraamaaSocial}
                             alt="logo"
                             draggable="false"
                         />
-                    <img
-                            className="imageSize"
+                        </a>
+                        
+                    </div>
+                    <div
+                        className="imageSize"
+                    >
+                        <a 
+                            href={URLS.socialMediaURLS.tobirama}
+                            target="_blank"
+                        >
+                        <img
                             src={tobiSocial}
                             alt="logo"
                             draggable="false"
                         />
-                    <img
-                            className="imageSize"
+                        </a>
+                    </div>
+                    <div
+                        className="imageSize"
+                    >
+                        <a 
+                            href={URLS.socialMediaURLS.kakashi}
+                            target="_blank"
+                        >
+                        <img
                             src={KakashiSocial}
                             alt="logo"
                             draggable="false"
                         />
-                    <img
-                            className="imageSize"
+                        </a>
+                    </div>
+                    <div
+                        className="imageSize"
+                    >
+                        <a 
+                            href={URLS.socialMediaURLS.kisamae}
+                            target="_blank"
+                        >
+                        <img
                             src={kisameSocial}
                             alt="logo"
                             draggable="false"
                         />
-                    <img
-                            className="imageSize"
+                        </a>
+                    </div>
+                    <div
+                        className="imageSize"
+                    >
+                        <a 
+                            href={URLS.socialMediaURLS.spaceMonkeys}
+                            target="_blank"
+                        >
+                        <img
                             src={smSocial}
                             alt="logo"
                             draggable="false"
                         />
+                        </a>
+                    </div>
                 </div>
             </div>
         </>
