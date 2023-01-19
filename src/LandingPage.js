@@ -21,7 +21,7 @@ import './LandingPage.css';
 
 const LandingPage = (props) => {
 
-    const { aboutRef, socialMediaRef } = props;
+    const { aboutRef, socialMediaRef, advertisementRef } = props;
     const [xPost, setX] = useState(0);
     const [yPost, setY] = useState(0);
 
@@ -38,6 +38,7 @@ const LandingPage = (props) => {
             <Navbar 
             aboutRef={aboutRef}
             socialMediaRef={socialMediaRef}
+            advertisementRef={advertisementRef}
             />
             </div>
             

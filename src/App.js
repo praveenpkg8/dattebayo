@@ -9,11 +9,13 @@ import About from './About';
 import Stat from './Stats';
 import Donation from './Donation';
 import SocialMedia from './SocialMedia';
+import Advertisement from './pages/Advertisement/Advertisement';
 
 function App() {
 
   const aboutRef = useRef();
   const socialMediaRef = useRef();
+  const advertisementRef = useRef();
 
 
   return (
@@ -22,11 +24,13 @@ function App() {
       <LandingPage 
       aboutRef={aboutRef}
       socialMediaRef={socialMediaRef}
+      advertisementRef={advertisementRef}
       />
       <About ref={aboutRef} />
       <SocialMedia ref={socialMediaRef} />
       <Stat ></Stat>
       <Donation> </Donation>
+      <Advertisement ref={advertisementRef} />
       
     </div>
   );
