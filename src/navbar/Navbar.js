@@ -8,7 +8,7 @@ const scrollToSection = (reference) => {
 }
 
 const Navbar = React.forwardRef((props, _) => {
-    const { aboutRef, socialMediaRef } = props;
+    const { aboutRef, socialMediaRef, donationRef } = props;
     return (
         <>
             <div className="Navbar">
@@ -25,7 +25,9 @@ const Navbar = React.forwardRef((props, _) => {
                         alt="logo"
                     />
                 </div>
-                <div>Navbar</div>
+                <div className="navButton"
+                    onClick={() => scrollToSection(donationRef)}
+                >Donation</div>
                 <div>Navbar</div>
             </div>
         </>
