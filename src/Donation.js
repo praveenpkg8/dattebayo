@@ -1,16 +1,16 @@
 import React from 'react';
-// import './Donate.css';
 import './Donation.css';
 
 import button1 from './bmc1.png';
 import button2 from './ptrn1.png';
 import button3 from './yt1.png';
 
-const Donation = () => {
+
+const Donation = (_, ref) => {
   return (
     <>
-
-      <div class="donationMainContainer">
+      <div ref={ref}>
+      <div  class="donationMainContainer">
         <div class="donationHeader">
           <h1>DONATIONS</h1>
         </div>
@@ -87,7 +87,10 @@ const Donation = () => {
           </div>
         </div>
       </div>
+      </div>
+      
     </>
-  )
+  );
 }
-export default Donation
+
+export default React.forwardRef(Donation);
