@@ -12,20 +12,20 @@ function App() {
 
   const aboutRef = useRef();
   const socialMediaRef = useRef();
-
+  const donationRef = useRef();
 
   return (
     <div className="App">
       {/* <Navbar aboutRefTest={AboutRef} /> */}
-      {/* <LandingPage 
+      <LandingPage 
       aboutRef={aboutRef}
       socialMediaRef={socialMediaRef}
-      /> */}
+      donationRef={donationRef}
+      />
       <About ref={aboutRef} />
       <SocialMedia ref={socialMediaRef} />
       <Stat ></Stat> 
-      <Donation> </Donation>
-      
+      <Donation ref={donationRef} />
     </div>
   );
 }
