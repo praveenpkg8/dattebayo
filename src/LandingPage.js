@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import Navbar from './navbar/Navbar';
 
+import logo from './smallLogo.png';
 import svkLandLogo from './landingPageAssets/svkLandLogo.png';
 import nightSemiSky from './landingPageAssets/nightSemiSky.png';
 import starImg from './landingPageAssets/star.png';
@@ -21,7 +22,7 @@ import './LandingPage.css';
 
 const LandingPage = (props) => {
 
-    const { aboutRef, socialMediaRef } = props;
+    const { aboutRef, socialMediaRef, donationRef } = props;
     const [xPost, setX] = useState(0);
     const [yPost, setY] = useState(0);
 
@@ -38,6 +39,7 @@ const LandingPage = (props) => {
             <Navbar 
             aboutRef={aboutRef}
             socialMediaRef={socialMediaRef}
+            donationRef={donationRef}
             />
             </div>
             
@@ -116,6 +118,14 @@ const LandingPage = (props) => {
                     alt="logo"
                     draggable="false"
                     style={{ transform: `translateX(${((xPost + 8) / 1750)}px) translateY(${((yPost - 8) / 1750)}%)` }}
+                />
+            </div>
+            <div className='mobileSection'>
+                <img
+                    className="mainLogo"
+                    src={logo}
+                    draggable="false"
+                    alt="logo"
                 />
             </div>
         </>
