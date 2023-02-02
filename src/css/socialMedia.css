@@ -149,7 +149,12 @@
 
 
 } */
-
+@font-face {
+    font-family: 'FutureFriends';
+    src: local('FutureFriends'), 
+      /* url("./fonts/future_friends.ttf") format('truetype'); */
+      url("../fonts/future_friends.ttf") format('truetype');
+  }
 .socialMediaMainContainer {
     background-color: #0119ff;
 }
@@ -163,7 +168,7 @@
     color: rgb(231, 51, 247);
     font-size: 4vh;
     text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
-    font-family: Arial;
+    font-family: FutureFriends;
     font-size: 6vh;
     grid-column: 3 / 3; 
 }
@@ -199,10 +204,9 @@
     
     .socialMediaHeader h1 {
         color: rgb(231, 51, 247);
-        font-size: 4vh;
         text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
-        font-family: Arial;
-        font-size: 6vh;
+        font-family: FutureFriends;
+        font-size: 3vh;
         grid-column: 3 / 3; 
     }
     
