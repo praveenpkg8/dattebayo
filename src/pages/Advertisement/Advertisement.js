@@ -3,9 +3,12 @@ import './Advertisement.css';
 import labels from '../../labels';
 
 
-const Advertisement = (_, ref) => {
+const Advertisement_ = (_, ref) => {
     return (
         <>
+        <div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0Y50upUUP4ekI-QKLhm6gjhaL5jDDsLy02GookmL8PsYgTw/viewform?embedded=true" width="300" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
             <div ref={ref} className="AdvMainContainer">
                 <div className="AdvHeader">
                     <h1>
@@ -15,7 +18,10 @@ const Advertisement = (_, ref) => {
                     <div className='AdvContent'>{labels.advertisementLabel.advConent}</div>
                 </div>
                 <div className='AdvFormMain'>
-                <form className='AdvForm'>
+
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0Y50upUUP4ekI-QKLhm6gjhaL5jDDsLy02GookmL8PsYgTw/viewform?embedded=true" width="500" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    
+                {/* <form className='AdvForm'>
                     <p className='AdvFormLabel'>{labels.advertisementLabel.formTitle}</p> 
                     <p className='AdvFormContent'>{labels.advertisementLabel.formContent}</p>
                     <div className='AdvFormField'>
@@ -45,8 +51,38 @@ const Advertisement = (_, ref) => {
                         <br />    
                     </div>
                     <button type='submit'>{labels.advertisementLabel.formsubmit}</button>   
-                </form>
+                </form> */}
                 </div>
+            </div>
+
+
+        </>
+    );
+}
+
+const Advertisement = (_, ref) => {
+    return (
+        <>
+            <div ref={ref} className="AdvrtMainCotainer">
+                <div className="AdvrtHeader">
+                    <h1>
+                    {labels.advertisementLabel.title}
+                    </h1>
+                </div>
+                <div className='AdvrtSecWrapper'>
+                    <div className='AdvrtSec-1'>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0Y50upUUP4ekI-QKLhm6gjhaL5jDDsLy02GookmL8PsYgTw/viewform?embedded=true" width="70%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    </div>
+                    <div className='AdvrtSec-2'>
+                        <h2>
+                            {labels.advertisementLabel.titleContent}
+                        </h2>
+                        <div className=''>
+                            {labels.advertisementLabel.advConent}
+                        </div>
+                    </div>
+                </div>
+                
             </div>
 
 
