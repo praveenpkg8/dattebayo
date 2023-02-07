@@ -29,10 +29,9 @@ const Navbar = React.forwardRef((props, _) => {
                 <div className="navButton"
                     onClick={() => scrollToSection(advertisementRef)}
                 >Advertisement</div>
-                <div
+                <div className="navButton"
                     onClick={() => scrollToSection(donationRef)}
                 >Donation</div>
-                <div>Navbar</div>
             </div>
         </>
     );
