@@ -19,16 +19,16 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Navbar aboutRefTest={AboutRef} /> */}
       <LandingPage 
       aboutRef={aboutRef}
       socialMediaRef={socialMediaRef}
       advertisementRef={advertisementRef}
+      donationRef={donationRef}
       />
       <About ref={aboutRef} />
       <SocialMedia ref={socialMediaRef} />
+      {/* <Stat ></Stat>  */}
       <Advertisement ref={advertisementRef} />
-      <Stat ></Stat> 
       <Donation ref={donationRef} />
     </div>
   );
