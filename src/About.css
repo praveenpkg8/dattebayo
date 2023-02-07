@@ -1,3 +1,11 @@
+
+@font-face {
+    font-family: 'FutureFriends';
+    src: local('FutureFriends'), 
+      url("./fonts/future_friends.ttf") format('truetype');
+  }
+
+  
 .AboutMainContainer {
     background-color: #0119ff;
     height: 100vh;
@@ -54,7 +62,7 @@
     color: rgb(231, 51, 247);
     font-size: 4vh;
     text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
-    font-family: Arial;
+    font-family: FutureFriends;
     font-size: 6vh;
     grid-column: 3 / 3; 
 }
@@ -75,13 +83,11 @@
 
 }
 
-
-
 .AbtSecTile2 h2{
     color: rgb(231, 51, 247);
     font-size: 4vh;
     text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
-    font-family: Arial;
+    font-family: FutureFriends;
     font-size: 6vh;
     margin: 0 0 2vh 0;
 
@@ -106,36 +112,33 @@
         row-gap: 0;
         column-gap: 0;
     }
-    .AbtSec-1 {
+    .AbtSec {
+        width: 70%;
         z-index: inherit;
+        margin: auto;
+    }
+    .AbtSec-1 {
         grid-column: auto;
         grid-row: auto;
-        margin: auto;
         padding: 2vh;
 
     }
     .AbtSec-2 {
-        z-index: inherit;
         grid-column: auto;
         grid-row: auto;
-        margin: auto;
         padding: 2vh;
     }
     .AbtSec-3 {
-        z-index: inherit;
-        grid-column: auto;
-        grid-row: auto;
-        margin: 0;
-        padding: 2vh;
-
-    }
-    .AbtSec-4 {
-        z-index: inherit;
         grid-column: auto;
         grid-row: auto;
         margin: auto;
         padding: 2vh;
-
+    }
+    .AbtSec-4 {
+        grid-column: auto;
+        grid-row: auto;
+        margin: auto;
+        padding: 2vh;
     }
     .AbtHeader {
         display: grid;
@@ -144,7 +147,7 @@
         color: rgb(231, 51, 247);
         font-size: 4vh;
         text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
-        font-family: Arial;
+        font-family: FutureFriends;
         font-size: 3vh;
         grid-column: 2 / 3; 
     }
@@ -176,7 +179,7 @@
     .AbtSecTile2 h2{
         color: rgb(231, 51, 247);
         text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
-        font-family: Arial;
+        font-family: FutureFriends;
         font-size: 3vh;
         margin-bottom: 1vh;
     }

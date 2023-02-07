@@ -141,3 +141,34 @@
     top: 2vh;
 
 }
+.mobileSection {
+    display: none;
+}
+
+@media screen and (max-width: 1490px) {
+     
+    .backDrop1{
+        display: none;
+    }
+    .backDrop2{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .landingMainSection {
+        display: none;
+    }
+
+    .mobileSection {
+        display: block;
+        background-color: #0119ff;
+        height: 100vh;
+    }
+
+    .mainLogo {
+        margin-top: 30vh;
+        width: 70%;
+    }
+}

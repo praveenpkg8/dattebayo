@@ -4,11 +4,8 @@
       url("./fonts/future_friends.ttf") format('truetype');
   }
 
-
 .donationMainContainer {
     background-color: #0119ff;
-    height: 100%;
-
 }
 
 .donationHeader {
@@ -29,49 +26,13 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
     row-gap: 4vh;
     column-gap: 4vh;
-}
-
-
-.brndbox {
-    width: 100%;
-    box-sizing: content-box;
-    box-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 20px 10px black;
-}
-
-.ptrn1 {
-    height: 75px;
-    box-sizing: border-box;
-
-}
-
-.yt1 {
-    height: 75px;
-}
-
-.ptrn {
-    display: grid;
-    width: 100%;
-    margin: 40px auto;
-    box-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 20px 10px black;
-
-
-}
-
-.perk {
-    display: grid;
-    height: 40px;
-    -webkit-text-fill-color: blue;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    font: 1.30em sans-serif;
+    padding: 4vh;
 }
 
 .box {
-    /* position: relative; */
-    width: calc(300px - 20px);
-    height: calc(615px - 30px);
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 70px;
@@ -79,27 +40,65 @@
     box-shadow: 10px 10px 0 black, 2px 3px 6px black, 2px 8px 9px black, 5px 10px black;
 }
 
+.brndbox {
+    width: 100%;
+    box-sizing: content-box;
+    box-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 20px 10px black;
+}
+
+
+
+
+
 .buyMeCoff {
     background: #fced22;
 }
 
-.patbox {
+.brandImg{
+    height: 25vh;
+}
+
+.patreon {
     background: #f97449;
 }
 
-.ytbox {
+.youtube {
     background-color: #ff696a;
+}
+
+.supportUs {
+    grid-column: 1 / 3;
+    display: grid;
+}
+
+.supportUs ui {
+    grid-column: 3 / 3;
+    margin-bottom: 5vh; 
+}
+
+.perk {
+    -webkit-text-fill-color: blue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font: 1.30em sans-serif;
+}
+
+.perk h3 {
+    text-align: left;
+    margin-left: 3vh;
+}
+
+.supportContent {
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-bottom: 4vh;
 }
 
 .btn {
     text-decoration: none;
-    padding: 5px 25px;
+    padding: 2vh 3vh;
     font-size: 1.50rem;
     font-family: FutureFriends;
-    position: relative;
-    left: 63px;
-    top: 70px;
-    margin: 60px;
     background: white;
     border-style: solid;
     border-color: black;
@@ -108,22 +107,6 @@
     border-radius: 30px;
     text-align: right;
     transition: transform 0.8s ease;
-
-}
-
-.btn::after,
-.btn::before {
-    content: "";
-    position: absolute;
-    opacity: 0.3;
-    background: #000;
-    border-radius: inherit;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: transform 0.3s ease;
 }
 
 .btn:hover {
@@ -138,9 +121,11 @@
     transform: translate(12px, 12px);
 }
 
+
 @media screen and (max-width: 800px) {
     .donationMainContainer {
-        background-color: red;
+        background-color: #0119ff;
+
     }
     
     .donationHeader {
@@ -153,7 +138,7 @@
         text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
         font-family: FutureFriends;
         font-size: 3vh;
-        grid-column: 2 / 3; 
+        grid-column: 3 / 3; 
     }
 
 
@@ -164,4 +149,40 @@
         row-gap: 4vh;
         column-gap: 4vh;
     }
+
+    .brandImg{
+        height: 7vh;
+    }
+
+    .supportContent {
+        padding-left: 2vh;
+        padding-right: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .box {
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 70px;
+        width: 85%;
+        margin-left: 3vh;
+        border: 4px solid black;
+        box-shadow: 10px 10px 0 black, 2px 3px 6px black, 2px 8px 9px black, 5px 10px black;
+    }
+
+    .btn {
+        text-decoration: none;
+        padding: 1vh 1.5vh;
+        font-size: 1rem;
+        font-family: FutureFriends;
+        background: white;
+        border-style: solid;
+        border-color: black;
+        box-shadow: 1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 5px 10px black;
+        color: red;
+        border-radius: 30px;
+        text-align: right;
+        transition: transform 0.8s ease;
+    }
 }
+
