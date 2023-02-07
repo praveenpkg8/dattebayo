@@ -1,0 +1,41 @@
+.StatMainContainer {
+    background-color: #0119ff;
+    height: 100%;
+}
+
+.StatSecWrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4vh;
+    column-gap: 4vh;
+}
+
+.StatHeader {
+    grid-column: 1 / 3; 
+    display: grid;
+}
+.StatHeader h1 {
+    color: rgb(231, 51, 247);
+    font-size: 4vh;
+    text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
+    font-family: FutureFriends;
+    font-size: 6vh;
+    grid-column: 3 / 3; 
+}
+
+
+.StatSec-1 {
+    background-color: red;
+    grid-row: 1/2;
+    grid-column: 1/3;
+    height: 45vh;
+}
+
+.StatSec-2 {
+    background-color: red;
+    grid-row: 2/2;
+    grid-column: 1/3;
+    height: 45vh;
+}
+
