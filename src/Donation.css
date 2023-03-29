@@ -51,19 +51,19 @@
 
 
 .buyMeCoff {
-    background: #fced22;
+    background: #F9DE4B;
 }
 
 .brandImg{
-    height: 25vh;
+    height: 20%;
 }
 
 .patreon {
-    background: #f97449;
+    background: #E3662E;
 }
 
 .youtube {
-    background-color: #ff696a;
+    background-color: #D54034;
 }
 
 .supportUs {
@@ -148,6 +148,12 @@
         grid-template-columns: 1fr;
         row-gap: 4vh;
         column-gap: 4vh;
+    }
+
+    .brndbox {
+        width: 60%;
+        box-sizing: none;
+        box-shadow: none;
     }
 
     .brandImg{
