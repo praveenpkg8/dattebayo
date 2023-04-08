@@ -82,6 +82,14 @@
 
 }
 
+.AbtSecTile p{
+    padding: 20px;
+    text-align: justify;
+    word-spacing: 6px;
+    font-size: 18px;
+
+}
+
 .AbtSecTile2 h2{
     color: rgb(231, 51, 247);
     font-size: 4vh;

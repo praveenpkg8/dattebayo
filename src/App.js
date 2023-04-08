@@ -7,6 +7,7 @@ import About from './About';
 import Stat from './Stats';
 import Donation from './Donation';
 import SocialMedia from './SocialMedia';
+import Merch from './Merch';
 import Advertisement from './pages/Advertisement/Advertisement';
 
 function App() {
@@ -25,11 +26,12 @@ function App() {
       advertisementRef={advertisementRef}
       donationRef={donationRef}
       />
-      <About ref={aboutRef} />
-      <SocialMedia ref={socialMediaRef} />
+      {/* <About ref={aboutRef} /> */}
+      {/* <SocialMedia ref={socialMediaRef} /> */}
+      {/* <Merch ref={socialMediaRef} /> */}
       {/* <Stat ></Stat>  */}
-      <Advertisement ref={advertisementRef} />
-      <Donation ref={donationRef} />
+      {/* <Advertisement ref={advertisementRef} /> */}
+      {/* <Donation ref={donationRef} /> */}
     </div>
   );
 }

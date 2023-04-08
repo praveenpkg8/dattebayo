@@ -6,5 +6,17 @@
         "kakashi": "https://www.instagram.com/kakashi_hatake_svk/",
         "kisamae": "https://www.instagram.com/kisamesvk/",
         "spaceMonkeys": "https://www.instagram.com/spacemonkeys_svk/"
+    },
+    "merchURLS": {
+        "eatSleepVanmamRepeat": "https://cdn.shopify.com/s/files/1/1002/7150/products/Eat-Sleep-Vanmam-Repeat-Hoodie.jpg?v=1679660725",
+        "haashiraamaa": "https://www.instagram.com/haashiraamaa_senju_svk/",
+        "tobirama": "https://www.instagram.com/tobiramasenju_svk/",
+        "kakashi": "https://www.instagram.com/kakashi_hatake_svk/",
+        "kisamae": "https://www.instagram.com/kisamesvk/",
+        "spaceMonkeys": "https://www.instagram.com/spacemonkeys_svk/"
+    },
+    "merchImageAssets": {
+        "eatSleepVanmamRepeat": "https://fullyfilmy.in/collections/svk-collection/products/eat-sleep-vanmam-repeat-svk-official-hoodie"
     }
+    
 }
