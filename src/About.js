@@ -19,7 +19,9 @@ const About = (_, ref) => {
                             {AboutContent.About1.tittle}
                         </h2>
                         <div>
-                            {AboutContent.About1.content}
+                            <p>
+                                {AboutContent.About1.content}
+                            </p>
                         </div>
                     </div>
                     <div className="AbtSec AbtSec-2 AbtSecTile2">
