@@ -23,7 +23,7 @@ const Merch = (_, ref) => {
     return (
         <>
             <div ref={ref} className="MerchMainContainer">
-                <div className='socialMediaHeader'>
+                <div className='merchheader'>
                     <h1>
                         Merchandise
                     </h1>
@@ -31,7 +31,8 @@ const Merch = (_, ref) => {
                 <div className='socialMediaSecWrapper'>
                     <div
                         className="imageSize"
-                    >
+                    > 
+                        <h2>Get Vanmamaru</h2>
                         <a 
                             href={URLS.merchImageAssets.eatSleepVanmamRepeat}
                             target="_blank"
@@ -42,7 +43,8 @@ const Merch = (_, ref) => {
                             draggable="false"
                         />
                         </a>
-                        
+                        <p>This is the Content of the card</p>
+                        <span>Footer Text Goes Here</span>
                     </div>
                    
                 </div>

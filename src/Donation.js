@@ -34,7 +34,7 @@ const Donation = (_, ref) => {
               className='supportUs'
             >
               <ui>
-                <a href="https://www.buymeacoffee.com/SVKOfficial" class="btn coffeebtn">Buy Now</a>
+                <a href="https://www.buymeacoffee.com/SVKOfficial" target='_blank' class="btn coffeebtn">Buy Now</a>
               </ui>
             </div>
           </div>
@@ -58,7 +58,7 @@ const Donation = (_, ref) => {
               className='supportUs'
             >
               <ui>
-                <a href="https://www.patreon.com/SchumyVannaKaviyangal" class="btn patbtn">Buy Now</a>
+                <a href="https://www.patreon.com/SchumyVannaKaviyangal" target='_blank' class="btn patbtn">Buy Now</a>
               </ui>
             </div>
           </div>
@@ -81,7 +81,7 @@ const Donation = (_, ref) => {
               className='supportUs'
             >
               <ui>
-                <a href="https://www.youtube.com/c/SchumyVannakaviyangalOfficial" class="btn ytbtn">Buy Now</a>
+                <a href="https://www.youtube.com/c/SchumyVannakaviyangalOfficial" target='_blank' class="btn ytbtn">Buy Now</a>
               </ui>
             </div>
           </div>
