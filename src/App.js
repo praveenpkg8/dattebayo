@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
-// import svkLargeLogo from './svkLargeLogo.png';
+ import svkLargeLogo from './svkLargeLogo.png';
 import './App.css';
-// import Navbar from './navbar/Navbar';
+ import Navbar from './navbar/Navbar';
 import LandingPage from './LandingPage';
 import About from './About';
 import Stat from './Stats';
@@ -26,12 +26,12 @@ function App() {
       advertisementRef={advertisementRef}
       donationRef={donationRef}
       />
-      {/* <About ref={aboutRef} /> */}
-      {/* <SocialMedia ref={socialMediaRef} /> */}
-      {/* <Merch ref={socialMediaRef} /> */}
-      {/* <Stat ></Stat>  */}
-      {/* <Advertisement ref={advertisementRef} /> */}
-      {/* <Donation ref={donationRef} /> */}
+      { <About ref={aboutRef} /> }
+      { <SocialMedia ref={socialMediaRef} /> }
+      { <Merch ref={socialMediaRef} /> }
+      { <Stat ></Stat>  }
+      { <Advertisement ref={advertisementRef} /> }
+      { <Donation ref={donationRef} /> }
     </div>
   );
 }

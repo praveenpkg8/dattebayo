@@ -106,7 +106,7 @@
     color: red;
     border-radius: 30px;
     text-align: right;
-    transition: transform 0.8s ease;
+    transition: transform(0.8s) ease;
 }
 
 .btn:hover {
