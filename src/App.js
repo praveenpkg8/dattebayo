@@ -11,21 +11,24 @@ import Merch from './Merch';
 import Advertisement from './pages/Advertisement/Advertisement';
 
 function App() {
-
+  const navbarRef = useRef();
   const aboutRef = useRef();
   const socialMediaRef = useRef();
+  const merchRef = useRef();
   const advertisementRef = useRef();
-
   const donationRef = useRef();
 
   return (
+
     <div className="App">
       <LandingPage 
       aboutRef={aboutRef}
       socialMediaRef={socialMediaRef}
+      merchRef = {merchRef}
       advertisementRef={advertisementRef}
       donationRef={donationRef}
       />
+      
       { <About ref={aboutRef} /> }
       { <SocialMedia ref={socialMediaRef} /> }
       { <Merch ref={socialMediaRef} /> }
