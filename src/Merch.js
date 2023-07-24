@@ -23,7 +23,7 @@ const Merch = (_, ref) => {
       <div ref={ref} className="MerchMainContainer">
         <div className="merchwrapper">
           <div className="imageSize">
-            <h2>Get Vanmamaru</h2>
+            <h2>Eat Sleep Vanmam Repeat - SVK Official Hoodie</h2>
             <a
               href={URLS.merchImageAssets.eatSleepVanmamRepeat}
               target="_blank"
@@ -41,13 +41,13 @@ const Merch = (_, ref) => {
 
         <div className="merchwrapper">
           <div className="imageSize">
-            <h2>Get Vanmamaru</h2>
+            <h2>Ideas Are Bulletproof - SVK Official T-Shirt</h2>
             <a
-              href={URLS.merchImageAssets.eatSleepVanmamRepeat}
+              href={URLS.merchImageAssets.ideasarebulletproof}
               target="_blank"
             >
               <img
-                src={URLS.merchURLS.eatSleepVanmamRepeat}
+                src={URLS.merchURLS.ideasarebulletproof}
                 alt="logo"
                 draggable="false"
               />
@@ -59,13 +59,13 @@ const Merch = (_, ref) => {
 
         <div className="merchwrapper">
           <div className="imageSize">
-            <h2>Get Vanmamaru</h2>
+            <h2>SVK Logo - Official SVK T-Shirt</h2>
             <a
-              href={URLS.merchImageAssets.eatSleepVanmamRepeat}
+              href={URLS.merchImageAssets.svklogoofficial}
               target="_blank"
             >
               <img
-                src={URLS.merchURLS.eatSleepVanmamRepeat}
+                src={URLS.merchURLS.svklogoofficial}
                 alt="logo"
                 draggable="false"
               />
@@ -77,13 +77,13 @@ const Merch = (_, ref) => {
 
         <div className="merchwrapper">
           <div className="imageSize">
-            <h2>Get Vanmamaru</h2>
+            <h2>Anti-Woke Spray - SVK Official Oversized T-Shirt</h2>
             <a
-              href={URLS.merchImageAssets.eatSleepVanmamRepeat}
+              href={URLS.merchImageAssets.antiwokespray}
               target="_blank"
             >
               <img
-                src={URLS.merchURLS.eatSleepVanmamRepeat}
+                src={URLS.merchURLS.antiwokespray}
                 alt="logo"
                 draggable="false"
               />
