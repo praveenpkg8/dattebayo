@@ -128,20 +128,14 @@
     color: red;
     border-radius: 30px;
     text-align: right;
-    transition: transform 0.8s ease;
+    transition: box-shadow 0.5s ease-in-out;
 }
 
 .btn:hover {
-    transform: translate(-12px, -12px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-.btn:hover::after {
-    transform: translate(6px, 6px);
-}
 
-.btn:hover::before {
-    transform: translate(12px, 12px);
-}
 
 
 @media screen and (max-width: 800px) {
@@ -210,7 +204,5 @@
         color: red;
         border-radius: 30px;
         text-align: right;
-        transition: transform 0.8s ease;
     }
 }
-

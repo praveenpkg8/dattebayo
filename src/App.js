@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
-// import svkLargeLogo from './svkLargeLogo.png';
+ import svkLargeLogo from './svkLargeLogo.png';
 import './App.css';
-// import Navbar from './navbar/Navbar';
+ import Navbar from './navbar/Navbar';
 import LandingPage from './LandingPage';
 import About from './About';
 import Stat from './Stats';
@@ -11,18 +11,20 @@ import Merch from './Merch';
 import Advertisement from './pages/Advertisement/Advertisement';
 
 function App() {
-
+  const navbarRef = useRef();
   const aboutRef = useRef();
   const socialMediaRef = useRef();
+  const merchRef = useRef();
   const advertisementRef = useRef();
-
   const donationRef = useRef();
 
   return (
+
     <div className="App">
       <LandingPage 
       aboutRef={aboutRef}
       socialMediaRef={socialMediaRef}
+      merchRef = {merchRef}
       advertisementRef={advertisementRef}
       donationRef={donationRef}
       />
