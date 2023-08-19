@@ -53,13 +53,45 @@
     margin: -4vh 20vh 4vh -4vh;
 }
 
+.AbtSec-4 div{
+   font-weight: bold; 
+   padding: 3vh;
+   font-family: FutureFriends;
+
+}
+
+.platform {
+    padding:  40px;
+}
+.platform img {
+    margin-right: 20px;
+}
+
+.spotifyLogo {
+    width: 13%;
+}
+.gPodcastLogo {
+    width: 12%;
+}
+.applePodcast {
+    width: 13%;
+}
+.anchorFm {
+    width: 13%;
+    border-radius: 20%;
+}
+
+
+.jiggle-element:hover {
+    animation: jiggle 0.5s ease-in-out;
+}
+
 .AbtHeader {
     grid-column: 1 / 3; 
     display: grid;
 }
 .AbtHeader h1 {
     color: rgb(231, 51, 247);
-    font-size: 4vh;
     text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
     font-family: FutureFriends;
     font-size: 6vh;
@@ -70,6 +102,7 @@
 .AbtSecTile {
     background-color: rgb(250, 238, 86);
     border-radius: 3vh 3vh 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
 .AbtSecTile h2{
@@ -77,29 +110,77 @@
     border-radius: 3vh 3vh 0 0;
     border-bottom-style: solid;
     border-bottom-color: black;
+    text-shadow: -1px 2px 8px rgba(0, 0, 0, 0.6);
     margin: 0;
     font-size: 6vh;
 
 }
 
 .AbtSecTile p{
-    padding: 20px;
     text-align: justify;
-    word-spacing: 6px;
-    font-size: 18px;
+    /* word-spacing: 6px; */
+    font-size: 15px;
+    padding: 20px 40px;
+    font-family: FutureFriends;
 
 }
 
 .AbtSecTile2 h2{
     color: rgb(231, 51, 247);
-    font-size: 4vh;
     text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
     font-family: FutureFriends;
-    font-size: 6vh;
+    font-size: 4vh;
     margin: 0 0 2vh 0;
+}
+
+.AbtSecTile2 p{
+    padding: 20px;
+    text-align: justify;
+    word-spacing: 6px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 4px 4px 8px rgba(121, 12, 12, 0.905);
+    text-align: left;
+    padding: 20px 40px;
+    font-family: FutureFriends;
+}
 
 
-} 
+
+
+
+.animation-sample {
+position: absolute;
+animation-name: blink;
+animation-duration: 4s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes textBoard {
+from{
+    transform: translateX(0px);
+}
+to{
+    transform: translateX(600px);
+}
+}
+@keyframes blink {
+    0%, 50%, 100%{
+      opacity: 1;
+    }
+    25%, 75% {
+      opacity: 0;
+    }
+  }
+
+
+
+
+
+
 
 @media screen and (max-width: 1350px) {
     .AboutMainContainer {
@@ -147,6 +228,7 @@
         margin: auto;
         padding: 2vh;
     }
+
     .AbtHeader {
         display: grid;
     }
