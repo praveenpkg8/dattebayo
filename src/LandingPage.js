@@ -36,12 +36,12 @@ const LandingPage = (props) => {
     return (
         <>
             <div className="navbar">
-            {/* <Navbar 
+            <Navbar 
             aboutRef={aboutRef}
             socialMediaRef={socialMediaRef}
             advertisementRef={advertisementRef}
             donationRef={donationRef}
-            /> */}
+            />
             </div>
             
         
