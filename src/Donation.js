@@ -25,9 +25,15 @@ const Donation = (_, ref) => {
             <div class="perk">
               <h3>Perks</h3>
             </div>
-            <div className='supportContent'>
+            <div className='supportContent supportContentBlack'>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                Hey there, you coffee connoisseur! ☕ Ready for a deliciously simple way to support SVK podcast? Introducing "Buy Me a Coffee" – your golden ticket to show some love and caffeinated appreciation!
+
+                Spare a sip or two (or more!) and watch the magic unfold. Your generosity doesn't just warm hearts, it helps SVK podcast keep the laughs coming and the quality soaring.
+
+                Got something to say? With your donation, you're not just buying coffee – you're unlocking a chat with the coolest podcasters in town. Want a topic covered? Consider it done! These wizards of words are here to entertain and enlighten.
+
+                So, if you're vibing with SVK podcast and feel like sharing a cup of virtual joe, hit that button below and let's brew some podcast magic! ☕🎙️
               </p>
             </div>
             <div
@@ -40,7 +46,7 @@ const Donation = (_, ref) => {
           </div>
           <div class="box patreon">
             <img
-              className="brndbox brandImg "
+              className="brndbox brandImg brandImgPatreon"
               src={button2}
               alt="logo"
               draggable="false"
@@ -50,7 +56,15 @@ const Donation = (_, ref) => {
             </div>
             <div className='supportContent'>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                Join the SVK podcast crew on Patreon for a wild ride of laughs and support! 🎙️🤣
+
+                By becoming a patron, you're not just backing hilarious content – you're rocking rewards cooler than penguin shades. 😎
+
+                Expect early access to episodes, behind-the-scenes peeks into our wacky world, shout-outs on air and social media, plus sweet merchandise discounts and giveaways. 🎁✨
+
+                From "Super Supporter" to "Ultra Mega Fanatic" (yes, we got creative), choose your level and change it up anytime. Your contribution, big or small, fuels the fun! 🕺🙌
+
+                Ready to dive in? Join us on Patreon and let's make podcasting magic happen! 🚀🎉
               </p>
             </div>
 
@@ -74,7 +88,19 @@ const Donation = (_, ref) => {
             </div>
             <div className='supportContent'>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+              Ready for the full SVK podcast experience on YouTube? 📺✨ Become a member and unlock a treasure trove of perks that'll make your virtual seat cozier than ever!
+
+              Here's what you get:
+
+              🎖️ Flash a snazzy loyalty badge in comments and live chats.
+              🎉 Express yourself with exclusive custom emojis.
+              📢 Join the inner circle with members-only posts and polls.
+              🎥 Dive into private live streams and videos – just for you!
+
+              Choose your membership starting at just ₹ 59 per month. Switch or cancel anytime. By joining, you're not just supporting SVK podcast – you're vibing with a community that's all about top-tier fun and interaction.
+
+              Ready to level up? Click below and let's roll out the YouTube red carpet for you! 🚀👇
+
               </p>
             </div>
             <div
