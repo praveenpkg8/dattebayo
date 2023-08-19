@@ -3,7 +3,7 @@ const labels = {
     advertisementLabel : {
         title : 'Advertisers',
         titleContent : 'ABOUT ADVERTISEMENT',
-        advConent : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        advConent : "Feel free to reach out to us for any queries! We are proud to have collaborated with top-tier brands like Nord VPN, ZEE, and Spotify, as well as numerous small to medium-sized businesses. Contacting us is easy - simply fill out the Google form or drop us an email. Our friendly and dedicated team members will be delighted to connect with you and assist you on your journey. Get in touch today and let's create some magical moments together!",
         formTitle : 'Advertisers form',
         formContent : 'lorem kity josem, iptik van gough',
         formName : "Name",

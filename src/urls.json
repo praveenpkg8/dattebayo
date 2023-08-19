@@ -9,14 +9,15 @@
     },
     "merchURLS": {
         "eatSleepVanmamRepeat": "https://cdn.shopify.com/s/files/1/1002/7150/products/Eat-Sleep-Vanmam-Repeat-Hoodie.jpg?v=1679660725",
-        "haashiraamaa": "https://www.instagram.com/haashiraamaa_senju_svk/",
-        "tobirama": "https://www.instagram.com/tobiramasenju_svk/",
-        "kakashi": "https://www.instagram.com/kakashi_hatake_svk/",
-        "kisamae": "https://www.instagram.com/kisamesvk/",
-        "spaceMonkeys": "https://www.instagram.com/spacemonkeys_svk/"
+        "ideasarebulletproof": "https://fullyfilmy.in/cdn/shop/products/Mockup-Tshirt.jpg?v=1681976139",
+        "svklogoofficial":"https://fullyfilmy.in/cdn/shop/products/Schumy-logo-tee.jpg?v=1679660633",
+        "antiwokespray":"https://fullyfilmy.in/cdn/shop/products/Anti-woke-spray-oversized-tee.jpg?v=1679660873"
     },
     "merchImageAssets": {
-        "eatSleepVanmamRepeat": "https://fullyfilmy.in/collections/svk-collection/products/eat-sleep-vanmam-repeat-svk-official-hoodie"
+        "eatSleepVanmamRepeat": "https://fullyfilmy.in/collections/svk-collection/products/eat-sleep-vanmam-repeat-svk-official-hoodie",
+        "ideasarebulletproof" : "https://fullyfilmy.in/collections/svk-collection/products/ideas-are-bulletproof-svk-official-t-shirt",
+        "svklogoofficial":"https://fullyfilmy.in/collections/svk-collection/products/svk-logo-svk-official-t-shirt",
+        "antiwokespray": "https://fullyfilmy.in/collections/svk-collection/products/anti-woke-spray-svk-official-oversized-t-shirt"
     }
     
 }
