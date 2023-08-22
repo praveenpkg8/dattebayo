@@ -48,7 +48,13 @@
     text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
 }
 
+@media screen and (max-width:700px) {
+    .responsive_iframe {
+        width: 46vh;
+        height: 650px;
+    }
 
+}
 
 @media screen and (max-width: 1350px) {
     .AdvMainContainer {

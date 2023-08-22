@@ -14,7 +14,8 @@ const Advertisement = (_, ref) => {
                 </div>
                 <div className='AdvrtSecWrapper'>
                     <div className='AdvrtSec-1'>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfugxrPeefHevkflFjl6AK1gdtO4-lD8CKTV2TOI2-z0IQOpw/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        <iframe
+                        className='responsive_iframe' src="https://docs.google.com/forms/d/e/1FAIpQLSfugxrPeefHevkflFjl6AK1gdtO4-lD8CKTV2TOI2-z0IQOpw/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                     </div>
                     <div className='AdvrtSec-2'>
                         <h2>
