@@ -27,6 +27,8 @@ export const productData = [
     name: "Ideas Are Bulletproof - SVK Official T-Shirt",
     price: "Rs 699.00",
     description: "Some text about the product",
+    url1:
+      "https://fullyfilmy.in/collections/svk-collection/products/ideas-are-bulletproof-svk-official-t-shirt",
   },
   {
     id: 2,
@@ -35,6 +37,7 @@ export const productData = [
     name: "Eat Sleep Vanmam Repeat - T-Shirt",
     price: "Rs 699.00",
     description: "Some text about the product",
+    url1: "https://fullyfilmy.in/collections/svk-collection/products/ideas-are-bulletproof-svk-official-t-shirt",
   },
   {
     id: 3,
@@ -43,6 +46,8 @@ export const productData = [
     name: "SVK Logo - Official SVK T-Shirt",
     price: "Rs 699.00",
     description: "Some text about the product",
+    url1:
+      "https://fullyfilmy.in/collections/svk-collection/products/ideas-are-bulletproof-svk-official-t-shirt",
   },
   {
     id: 4,
@@ -51,6 +56,8 @@ export const productData = [
     name: "13 Family Pack - SVK Official T-Shirt",
     price: "Rs 699.00",
     description: "Some text about the product",
+    url1:
+      "https://fullyfilmy.in/collections/svk-collection/products/ideas-are-bulletproof-svk-official-t-shirt",
   },
   {
     id: 5,
@@ -59,6 +66,7 @@ export const productData = [
     name: "Anti-Woke Spray - Oversized T-Shirt",
     price: "Rs 799.00",
     description: "Some text about the product",
+    url1: "https://fullyfilmy.in/collections/svk-collection/products/ideas-are-bulletproof-svk-official-t-shirt",
   },
   {
     id: 6,
@@ -67,5 +75,7 @@ export const productData = [
     name: "Cringe Machan Supremacy - Hoodie",
     price: "Rs 1299.00",
     description: "Some text about the product",
+    url1:
+      "https://fullyfilmy.in/collections/svk-collection/products/ideas-are-bulletproof-svk-official-t-shirt",
   },
 ];

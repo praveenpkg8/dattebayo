@@ -14,6 +14,7 @@ const Merch = (_, ref) => {
       url={item.imageurl}
       price={item.price}
       description={item.description}
+      link={item.url1}
     />
   ));
 

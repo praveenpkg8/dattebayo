@@ -9,7 +9,10 @@ const Product = (props) => {
         <p className="price">{props.price}</p>
         <p>{props.description}</p>
         <p>
-          <button className="merchbtn">Add to cart</button>
+          {/* <a target="_blank" className="merchbtn">Add to cart</a> */}
+          <a href={props.link} target="_blank" className="merchbtn">
+            Buy Now
+          </a>
         </p>
       </div>
     </div>
