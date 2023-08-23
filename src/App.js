@@ -30,7 +30,7 @@ function App() {
       />
       <About ref={aboutRef} />
       <SocialMedia ref={socialMediaRef} />
-      {/* <Merch ref={socialMediaRef} /> */}
+      <Merch ref={socialMediaRef} />
       {/* <Stat ></Stat>  */}
       <Advertisement ref={advertisementRef} />
       <Donation ref={donationRef} />
