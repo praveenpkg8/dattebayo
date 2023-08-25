@@ -10,10 +10,10 @@
 .AdvrtHeader h1 {
     color: rgb(231, 51, 247);
     font-size: 4vh;
-    text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
     font-family: FutureFriends;
     font-size: 6vh;
     grid-column: 3 / 3; 
+    background-color: red;
 }
 
 .AdvrtSecWrapper {
@@ -27,10 +27,9 @@
 
   
 .AdvrtSecWrapper p {
-    color: #ffffff;
+    color: black;
     font-size: 16px;
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     line-height: 200%;
     
 }
@@ -45,12 +44,12 @@
 .AdvrtSec-2  h2{
     color: rgb(231, 51, 247);
     font-family: FutureFriends;
-    text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
+    color: #fced22;
 }
 
 @media screen and (max-width:700px) {
     .responsive_iframe {
-        width: 46vh;
+        width: 40vh;
         height: 650px;
     }
 
@@ -100,3 +99,5 @@
     
     
 }
+
+

@@ -20,6 +20,12 @@ const Merch = (_, ref) => {
 
   return (
     <>
+      <div className="Header_container">
+        <span className="AbtHeader">Merchandise</span>
+      </div>
+      <div className="scroll-container">
+        <div className="scroll-text">Use SVK420 to get discount </div>
+      </div>
       <div>
         <Carousel showDots={true} responsive={responsive}>
           {product}

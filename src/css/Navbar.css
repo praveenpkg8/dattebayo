@@ -1,17 +1,49 @@
 .Navbar {
+  display: flex;
+  height: 8vh;
+  justify-content: space-around;
+  align-items: center;
+  cursor: default;
+}
+
+.navButton {
+  background-color: white;
+  border-radius: 16vh;
+  width: 10%;
+  cursor: pointer;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 2px;
+  cursor: pointer;
+  border: 3px solid black;
+  color: #0119ff;
+  font-size: 2vh;
+  box-shadow: 3px 3px black;
+  font-family: FutureFriends;
+}
+.navButton:hover {
+  background-color: #fced22;
+  color: black;
+  box-shadow: 7px 9px black;
+}
+
+@media screen and (max-width: 800px) {
+  .Navbar {
     display: flex;
     height: 8vh;
     justify-content: space-evenly;
     align-items: center;
     cursor: default;
-}
+  }
 
-.navButton {
+  .navButton {
     background-color: white;
     border-radius: 16vh;
-    width: 10%;
+    width: 15%;
     cursor: pointer;
-    padding: 10px 10px;
+    padding: 8px 8px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -20,34 +52,6 @@
     border-style: solid;
     border-color: black;
     color: #0119ff;
-    font-weight: bold;
-    font-size: 2vh;
-}
-
-@media screen and (max-width: 800px)  {
-    .Navbar {
-        display: flex;
-        height: 8vh;
-        justify-content: space-evenly;
-        align-items: center;
-        cursor: default;
-    }
-    
-    .navButton {
-        background-color: white;
-        border-radius: 16vh;
-        width: 15%;
-        cursor: pointer;
-        padding: 8px 8px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        margin: 2px 2px;
-        cursor: pointer;
-        border-style: solid;
-        border-color: black;
-        color: #0119ff;
-        font-weight: bold;
-        font-size: 1vh;
-    }
+    font-size: 1vh;
+  }
 }

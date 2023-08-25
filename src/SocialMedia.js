@@ -23,10 +23,10 @@ const SocialMedia = (_, ref) => {
     return (
         <>
             <div ref={ref} className="socialMediaMainContainer">
-                <div className='socialMediaHeader'>
-                    <h1>
+                <div className='Header_container'>
+                    .<span className='AbtHeader'>
                         Social Media
-                    </h1>
+                    </span>
                 </div>
                 <div className='socialMediaSecWrapper'>
                     <div

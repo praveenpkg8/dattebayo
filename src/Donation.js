@@ -1,122 +1,139 @@
-import React from 'react';
-import './Donation.css';
+import React from "react";
+import "./Donation.css";
 
-import button1 from './bmc1.png';
-import button2 from './ptrn1.png';
-import button3 from './yt1.png';
-
+import button1 from "./bmc1.png";
+import button2 from "./ptrn1.png";
+import button3 from "./yt1.png";
+import {TbCircleDotFilled} from 'react-icons/tb'
+import {MdAddShoppingCart} from 'react-icons/md'
 
 const Donation = (_, ref) => {
   return (
     <>
       <div ref={ref}>
-      <div  class="donationMainContainer">
-        <div class="donationHeader">
-          <h1>DONATIONS</h1>
-        </div>
-        <div class="donationcontainer">
-          <div class="box buyMeCoff">
-            <img
-              className="brndbox brandImg"
-              src={button1}
-              alt="logo"
-              draggable="false"
-            />
-            <div class="perk">
-              <h3>Perks</h3>
-            </div>
-            <div className='supportContent supportContentBlack'>
-              <p>
-                Hey there, you coffee connoisseur! ☕ Ready for a deliciously simple way to support SVK podcast? Introducing "Buy Me a Coffee" – your golden ticket to show some love and caffeinated appreciation!
-
-                Spare a sip or two (or more!) and watch the magic unfold. Your generosity doesn't just warm hearts, it helps SVK podcast keep the laughs coming and the quality soaring.
-
-                Got something to say? With your donation, you're not just buying coffee – you're unlocking a chat with the coolest podcasters in town. Want a topic covered? Consider it done! These wizards of words are here to entertain and enlighten.
-
-                So, if you're vibing with SVK podcast and feel like sharing a cup of virtual joe, hit that button below and let's brew some podcast magic! ☕🎙️
-              </p>
-            </div>
-            <div
-              className='supportUs'
-            >
-              <ui>
-                <a href="https://www.buymeacoffee.com/SVKOfficial" target='_blank' class="btn coffeebtn">Buy Now</a>
-              </ui>
-            </div>
+        <div class="donationMainContainer">
+          <div className="Header_container">
+            <span className="AbtHeader">Advertisement</span>
           </div>
-          <div class="box patreon">
-            <img
-              className="brndbox brandImg brandImgPatreon"
-              src={button2}
-              alt="logo"
-              draggable="false"
-            />
-            <div class=" perk">
-              <h3>Perks</h3>
+          <div class="donationcontainer">
+            <div class="box buyMeCoff">
+              <span
+                className="brndbox brandImg"
+               
+                alt="logo"
+                draggable="false"
+              >Buy MeaCoffee</span>
+              <div class="perk">
+                <h3><TbCircleDotFilled className="perk_dot"/>Perks</h3>
+              </div>
+              <div className="supportContent supportContentBlack">
+                <p>
+                  <ul>
+                    <li>Support me on a monthly basis</li>
+                    <li>Protection from All Iluminati Sadhi</li>
+                    <li>Unlock exclusive posts and messages</li>
+                    <li>Access to full library</li>
+                    <li>Early access</li>
+                    <li>Exclusive SVK Stickers And Emojis</li>
+                    <li>Sit With Us During Live recording</li>
+                  </ul>
+                </p>
+              </div>
+              <div className="supportUs">
+                <ui>
+                  <a
+                    href="https://www.buymeacoffee.com/SVKOfficial"
+                    target="_blank"
+                    class="btn coffeebtn"
+                  >
+                    <MdAddShoppingCart className="buy_icon"/>
+                    Buy Now
+                  </a>
+                </ui>
+              </div>
             </div>
-            <div className='supportContent'>
-              <p>
-                Join the SVK podcast crew on Patreon for a wild ride of laughs and support! 🎙️🤣
+            <div class="box patreon">
+              <span
+                className="brndbox brandImg brandImgPatreon"
+                alt="logo"
+                draggable="false"
+              >Patreon</span>
+              <div class=" perk">
+                <h3><TbCircleDotFilled className="perk_dot"/>Perks</h3>
+              </div>
+              <div className="supportContent">
+                <p>
+                 <ul>
+                 
 
-                By becoming a patron, you're not just backing hilarious content – you're rocking rewards cooler than penguin shades. 😎
 
-                Expect early access to episodes, behind-the-scenes peeks into our wacky world, shout-outs on air and social media, plus sweet merchandise discounts and giveaways. 🎁✨
 
-                From "Super Supporter" to "Ultra Mega Fanatic" (yes, we got creative), choose your level and change it up anytime. Your contribution, big or small, fuels the fun! 🕺🙌
+                  <li>General Support</li>
+                  <li>Protection from All Iluminati Sadhi</li>
+                  <li>Exclusive podcast Updates</li>
+                  <li>Exclusive SVK Stickers And Emojis</li>
+                  <li>Sit With Us During Live recording</li>
+                 </ul>
+                </p>
+              </div>
 
-                Ready to dive in? Join us on Patreon and let's make podcasting magic happen! 🚀🎉
-              </p>
+              <div className="supportUs">
+                <ui>
+                  <a
+                    href="https://www.patreon.com/SchumyVannaKaviyangal"
+                    target="_blank"
+                    class="btn patbtn"
+                  >
+                    <MdAddShoppingCart className="buy_icon"/>
+                    Buy Now
+                  </a>
+                </ui>
+              </div>
             </div>
-
-            <div
-              className='supportUs'
-            >
-              <ui>
-                <a href="https://www.patreon.com/SchumyVannaKaviyangal" target='_blank' class="btn patbtn">Buy Now</a>
-              </ui>
-            </div>
-          </div>
-          <div class="box youtube">
-            <img
-              className="brndbox brandImg"
-              src={button3}
-              alt="logo"
-              draggable="false"
-            />
-            <div class="perk">
-              <h3>Perks</h3>
-            </div>
-            <div className='supportContent'>
-              <p>
-              Ready for the full SVK podcast experience on YouTube? 📺✨ Become a member and unlock a treasure trove of perks that'll make your virtual seat cozier than ever!
-
-              Here's what you get:
-
-              🎖️ Flash a snazzy loyalty badge in comments and live chats.
-              🎉 Express yourself with exclusive custom emojis.
-              📢 Join the inner circle with members-only posts and polls.
-              🎥 Dive into private live streams and videos – just for you!
-
-              Choose your membership starting at just ₹ 59 per month. Switch or cancel anytime. By joining, you're not just supporting SVK podcast – you're vibing with a community that's all about top-tier fun and interaction.
-
-              Ready to level up? Click below and let's roll out the YouTube red carpet for you! 🚀👇
-
-              </p>
-            </div>
-            <div
-              className='supportUs'
-            >
-              <ui>
-                <a href="https://www.youtube.com/c/SchumyVannakaviyangalOfficial" target='_blank' class="btn ytbtn">Buy Now</a>
-              </ui>
+            <div class="box youtube">
+              <span
+                className="brndbox brandImg"
+                alt="logo"
+                draggable="false"
+              >YouTube</span>
+              <div class="perk">
+                
+                <h3> <TbCircleDotFilled className="perk_dot"/>  Perks</h3>
+              </div>
+              <div className="supportContent">
+                <p>
+             <ul>
+              <li>Loyalty badges next to your name in comments and live chat</li>
+             <li>Custom emoji to use in comments and live chat</li>
+             <li>Priority reply to comments</li>
+             <li>Photos and status updates</li>
+             <li>Exclusive members-only videos</li>
+             <li>Early access to new videos</li>
+             <li>Member shout-outs</li>
+             <li>Discounted merchandise</li>
+             <li>Virtual video collaborations</li>
+             <li>Gameplay with you</li>
+             </ul>
+                </p>
+              </div>
+              <div className="supportUs">
+                <ui>
+                  <a
+                    href="https://www.youtube.com/c/SchumyVannakaviyangalOfficial"
+                    target="_blank"
+                    class="btn ytbtn"
+                  >
+                    <MdAddShoppingCart className="buy_icon"/>
+                    Buy Now
+                  </a>
+                </ui>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
-      
     </>
   );
-}
+};
 
 export default React.forwardRef(Donation);

@@ -1,235 +1,298 @@
-
 @font-face {
-    font-family: 'FutureFriends';
-    src: local('FutureFriends'), 
-      url("./fonts/future_friends.ttf") format('truetype');
-  }
+  font-family: "FutureFriends";
+  src: local("FutureFriends"),
+    url("./fonts/future_friends.ttf") format("truetype");
+}
 
-  
 .AboutMainContainer {
-    background-color: #0119ff;
-    height: 100vh;
+  background-color: #0119ff;
+  height: 100vh;
 }
 
 .AbtSecWrapper {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 4vh;
-    column-gap: 4vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4vh;
+  column-gap: 4vh;
 }
-
 
 .AbtSec {
-    z-index:10;
+  z-index: 10;
 }
 
-
 .AbtSec-1 {
-    z-index: 1;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    margin: 0 -4vh -12vh 4vh;
+  z-index: 1;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: 0 -4vh -12vh 4vh;
 }
 
 .AbtSec-2 {
-    z-index: 3;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin: 0 10vh 4vh 8vh;
+  z-index: 3;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: 0 10vh 4vh 8vh;
 }
 
 .AbtSec-3 {
-    z-index: 1;
-    grid-column: 1/2;
-    grid-row: 2/3;
-    margin: 9vh 8vh 0vh 8vh;
+  z-index: 1;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin: 9vh 8vh 0vh 8vh;
 }
 
 .AbtSec-4 {
-    z-index: 2;
-    grid-column: 2/3;
-    grid-row: 2/3;
-    margin: -4vh 20vh 4vh -4vh;
+  z-index: 2;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: -4vh 20vh 4vh -4vh;
 }
 
-.AbtSec-4 div{
-   font-weight: bold; 
-   padding: 3vh;
-   font-family: FutureFriends;
-
+.AbtSec-4 div {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 3vh;
+  font-size: 22px;
 }
 
 .platform {
-    padding:  40px;
-}
-.platform img {
-    margin-right: 20px;
+  margin: 10px;
+  padding: 90px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .spotifyLogo {
-    width: 13%;
+  scale: 6;
+  color: white;
+  padding: 1px;
 }
 .gPodcastLogo {
-    width: 12%;
+  scale: 6;
+  color: white;
+  padding: 1px;
+  color: white;
 }
 .applePodcast {
-    width: 13%;
-}
-.anchorFm {
-    width: 13%;
-    border-radius: 20%;
+  padding: 1px;
+  color: white;
+  scale: 6;
 }
 
+.spotifyLogo:hover,
+.gPodcastLogo:hover,
+.applePodcast:hover {
+  border-radius: 2px;
+  color: #0119ff;
+  scale: 6;
+  background-color: white;
+  padding: 1px;
+  box-shadow: 0.5px 0.5px black;
+}
 
 .jiggle-element:hover {
-    animation: jiggle 0.5s ease-in-out;
+  animation: jiggle 0.5s ease-in-out;
 }
 
-.AbtHeader {
+/* .AbtHeader {
     grid-column: 1 / 3; 
     display: grid;
-}
-.AbtHeader h1 {
+} */
+/* .AbtHeader h1 {
     color: rgb(231, 51, 247);
     text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
     font-family: FutureFriends;
     font-size: 6vh;
     grid-column: 3 / 3; 
-}
+} */
 
+.Header_container {
+  background: linear-gradient(
+    90deg,
+    rgba(1, 25, 255, 1) 0%,
+    rgba(0, 19, 190, 1) 85%
+  );
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 70px;
+  width: 100vp;
+  margin: 20px 0px 20px 0px;
+}
+.AbtHeader {
+  font-family: FutureFriends;
+  padding-right: 20px;
+  font-size: 45px;
+  color: #fced22;
+  text-shadow: 7px 7px black;
+  text-decoration: dotted;
+  -webkit-text-stroke: 3px black;
+  paint-order: stroke fill;
+}
 
 .AbtSecTile {
-    background-color: rgb(250, 238, 86);
-    border-radius: 3vh 3vh 0 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  background-color: #fced22;
+  border-radius: 3vh 3vh 0 0;
+  box-shadow: 10px 10px black;
 }
 
-.AbtSecTile h2{
-    background-color: rgb(255, 255, 255);
-    border-radius: 3vh 3vh 0 0;
-    border-bottom-style: solid;
-    border-bottom-color: black;
-    text-shadow: -1px 2px 8px rgba(0, 0, 0, 0.6);
-    margin: 0;
-    font-size: 6vh;
-
+.AbtSecTile h2 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3vh 3vh 0 0;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  /* text-shadow: -1px 2px 8px rgba(0, 0, 0, 0.6); */
+  margin: 0;
+  font-size: 3vh;
+  padding: 2px;
+  font-family: FutureFriends;
 }
 
-.AbtSecTile p{
-    text-align: justify;
-    /* word-spacing: 6px; */
-    font-size: 15px;
-    padding: 20px 40px;
-    font-family: FutureFriends;
-
+.AbtSecTile p {
+  text-align: center;
+  /* word-spacing: 6px; */
+  font-size: 22px;
+  font-weight: bolder;
+  padding: 2px;
+  font-family: FutureFriends;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.AbtSecTile2 h2{
-    color: rgb(231, 51, 247);
-    text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
-    font-family: FutureFriends;
-    font-size: 4vh;
-    margin: 0 0 2vh 0;
+.AbtSecTile2 h2 {
+  color: rgb(255, 255, 255);
+  /* text-shadow: 3px 3px black; */
+  font-family: FutureFriends;
+  font-size: 2.5vh;
+  /* margin: 0 0 2vh 0; */
+  padding: 5px;
+  background-color: rgba(0, 19, 190, 1);
+  padding: 3px;
+  border-radius: 20px;
+  margin: 20px;
 }
 
-.AbtSecTile2 p{
-    padding: 20px;
-    text-align: justify;
-    word-spacing: 6px;
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
-    text-shadow: 4px 4px 8px rgba(121, 12, 12, 0.905);
-    text-align: left;
-    padding: 20px 40px;
-    font-family: FutureFriends;
+.AbtSecTile2 p {
+  padding: 20px;
+  text-align: justify;
+  word-spacing: 6px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  padding: 2px;
 }
 
-
-
-
-
-.animation-sample {
-position: absolute;
-animation-name: blink;
-animation-duration: 4s;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
-
+.contact_logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  /* width: 40%; */
+  margin: 80px;
 }
+.connect_logo_ig,
+.conect_logo_yt,
+.connect_icons_discord,
+.connect_logo_fb,
+.connect_logo_twitter,
+.conect_logo_reddit {
+  color: #0e0f13;
+  scale: 3.3;
+  padding: 1px;
+  margin: 5px;
+}
+
+.connect_logo_ig:hover,
+.conect_logo_yt:hover,
+.connect_icons_discord:hover,
+.connect_logo_fb:hover,
+.connect_logo_twitter:hover,
+.conect_logo_reddit:hover{
+  /* color: #fced22; */
+  background-color: #fced22;
+  border-radius: 2px;
+  padding: 2px;
+}
+
 
 @keyframes textBoard {
-from{
+  from {
     transform: translateX(0px);
-}
-to{
+  }
+  to {
     transform: translateX(600px);
-}
+  }
 }
 @keyframes blink {
-    0%, 50%, 100%{
-      opacity: 1;
-    }
-    25%, 75% {
-      opacity: 0;
-    }
+  0%,
+  50%,
+  100% {
+    opacity: 1;
   }
-
-
-
-
-
-
-
-@media screen and (max-width: 1350px) {
-    .AboutMainContainer {
-        height: 100%;
-    }
+  25%,
+  75% {
+    opacity: 0;
+  }
 }
 
-@media screen and (max-width: 700px)  {
-    .AboutMainContainer {
-        background-color: #0119ff;
-        height: 100%;
-    }
-    .AbtSecWrapper {
-        display: grid;
-        grid-template-rows: 1fr ;
-        grid-template-columns: 1fr;
-        row-gap: 0;
-        column-gap: 0;
-    }
-    .AbtSec {
-        width: 70%;
-        z-index: inherit;
-        margin: auto;
-    }
-    .AbtSec-1 {
-        grid-column: auto;
-        grid-row: auto;
-        padding: 2vh;
+@media screen and (max-width: 1350px) {
+  .AboutMainContainer {
+    height: 100%;
+  }
+}
 
-    }
-    .AbtSec-2 {
-        grid-column: auto;
-        grid-row: auto;
-        padding: 2vh;
-    }
-    .AbtSec-3 {
-        grid-column: auto;
-        grid-row: auto;
-        margin: auto;
-        padding: 2vh;
-    }
-    .AbtSec-4 {
-        grid-column: auto;
-        grid-row: auto;
-        margin: auto;
-        padding: 2vh;
-    }
+@media screen and (max-width: 700px) {
+  .AboutMainContainer {
+    background-color: #0119ff;
+    height: 100%;
+  }
 
-    .AbtHeader {
+  .AbtSecTile p {
+    text-align: justify;
+    font-size: 2.3vh;
+  }
+  .AbtSecWrapper {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 0;
+    column-gap: 0;
+  }
+  .AbtSec {
+    width: 70%;
+    z-index: inherit;
+    margin: auto;
+  }
+  .AbtSec-1 {
+    grid-column: auto;
+    grid-row: auto;
+    /* padding: 2vh; */
+  }
+  .AbtSec-2 {
+    grid-column: auto;
+    grid-row: auto;
+    padding: 2vh;
+  }
+  .AbtSec-3 {
+    grid-column: auto;
+    grid-row: auto;
+    margin: auto;
+    padding: 2vh;
+  }
+  .AbtSec-4 {
+    grid-column: auto;
+    grid-row: auto;
+    margin: auto;
+    /* padding: 2vh; */
+  }
+  .animation-sample {
+    margin: -9999px;
+  }
+
+  /* .AbtHeader {
         display: grid;
     }
     .AbtHeader h1 {
@@ -240,44 +303,96 @@ to{
         font-size: 3vh;
         grid-column: 2 / 3; 
     }
-    
-    .AbtSecTile {
-        background-color: rgb(250, 238, 86);
-        background-color: transparent;
-        border-radius: 4vh 4vh 0 0;
-    }
-    
-    .AbtSecTile h2{
-        background-color: rgb(255, 255, 255);
-        border-radius: 5vh 5vh 0 0;
-        border-bottom-style: solid;
-        border-bottom-color: black;
-        font-size: 3vh;
-        margin: 0;
-    }
-    .AbtSecTile div {
-        background-color: rgb(250, 238, 86);
-        border-bottom-style: solid;
-        border-bottom-color: black;
-        margin: 0;
-        font-size: 2vh;
-        padding: 2vh;
-    }
-    
-    
-    .AbtSecTile2 h2{
-        color: rgb(231, 51, 247);
-        text-shadow: -1px 0 black, 2px 3px 6px black, 2px 8px 9px black, 3px 2px black;
-        font-family: FutureFriends;
-        font-size: 3vh;
-        margin-bottom: 1vh;
-    }
+     */
 
-    .AbtSecTile2 div{
-        color: white;
-        margin: 0;
-        font-size: 2vh;
-        padding: 2vh;
-    }
-    
+  .Header_container {
+    width: 100vp;
+  }
+
+  .AbtSecTile {
+    /* background-color: rgb(250, 238, 86); */
+    /* background-color: transparent; */
+    border-radius: 4vh 4vh 0 0;
+  }
+
+  .AbtSecTile h2 {
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 5vh 5vh 0 0; */
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    font-size: 3vh;
+    margin: 0;
+  }
+  .AbtSecTile div {
+    background-color: #fced22;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    margin: 0;
+    font-size: 2vh;
+    padding: 2.3vh;
+    text-align: justify;
+  }
+
+  .AbtSecTile2 h2 {
+
+    color: red;
+    font-family: FutureFriends;
+    font-size: 2vh;
+    padding: 2px;
+    margin-bottom: 1vh;
+  }
+  .contact_logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* width: 40%; */
+    margin: 40px;
+  }
+
+  .connect_logo_ig,
+.conect_logo_yt,
+.connect_icons_discord,
+.connect_logo_fb,
+.connect_logo_twitter,
+.conect_logo_reddit {
+  color: #fced22;
+  scale: 2.5;
+  padding: 25px;
+}
+  .AbtSecTile2 div {
+    color: white;
+    margin: 0;
+    font-size: 2vh;
+    padding: 2vh;
+  }
+
+  .spotifyLogo {
+    scale: 3;
+    color: white;
+    padding: 5px;
+  }
+  .gPodcastLogo {
+    scale: 3;
+    color: white;
+    padding: 5px;
+    color: white;
+  }
+  .applePodcast {
+    padding: 5px;
+    color: white;
+    scale: 3;
+  }
+
+  .spotifyLogo:hover,
+  .gPodcastLogo:hover,
+  .applePodcast:hover {
+    border-radius: 2px;
+    color: #0119ff;
+    scale: 6;
+    background-color: white;
+    padding: 1px;
+    box-shadow: 0.5px 0.5px black;
+  }
 }

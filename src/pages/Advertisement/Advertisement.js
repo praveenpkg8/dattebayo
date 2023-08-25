@@ -7,11 +7,9 @@ const Advertisement = (_, ref) => {
     return (
         <>
             <div ref={ref} className="AdvrtMainCotainer">
-                <div className="AdvrtHeader">
-                    <h1>
-                    {labels.advertisementLabel.title}
-                    </h1>
-                </div>
+            <div className="Header_container">
+        <span className="AbtHeader">Advertisement</span>
+      </div>
                 <div className='AdvrtSecWrapper'>
                     <div className='AdvrtSec-1'>
                         <iframe

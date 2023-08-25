@@ -1,51 +1,127 @@
 @font-face {
-    font-family: 'FutureFriends';
-    src: local('FutureFriends'), 
-      url("../fonts/future_friends.ttf") format('truetype');
-  }
+  font-family: "FutureFriends";
+  src: local("FutureFriends"),
+    url("../fonts/future_friends.ttf") format("truetype");
+}
 .MerchMainContainer {
-    display: flex;
-    background-color: blue;
-    
+  display: flex;
+  background-color: blue;
 }
-.merchcontainer{
-    width: 100%;
+.merchcontainer {
+  width: 100%;
 }
-  .merchproduct--image {
-    width: 100%;
-    height: 16em;
-    object-fit: cover;
-  }
-  
-  .merchcard {
-    background-color:#4937ec;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 320px;
-    margin: 20% 1rem;
-    text-align: center;
-    border-radius: 20px;
-  }
-  .merchcard img{
-    border-radius: 20px 20px 0 0;
-  }
-  .price {
-    color: darkgray;
-    font-size: 22px;
-  }
-  
+.merchproduct--image {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.merchproduct--image h2{
+  color: red;
+}
+
+
+.merchcard {
+  background-color: white;
+  box-shadow: 8px 8px black;
+  max-width: 320px;
+  margin: 20% 1rem;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+.merchcard :hover {
+  scale: 1.01;
+}
+.merchcard img {
+  border-radius: 20px 20px 0 0;
+}
+.price {
+  color: red;
+  font-family: FutureFriends;
+  font-size: 22px;
+}
+
+
+.merchbtn {
+  /* display: block; */
+  text-decoration: none;
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  border: 2px solid black;
+  font-size: 18px;
+  border-radius: 15px;
+  width: 80%;
+  padding-right: 28%;
+  padding-left: 28%;
+  font-family: FutureFriends;
+}
+
+.merchbtn:hover {
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 700px) {
   .merchbtn {
-    display: block;
     text-decoration: none;
     border: none;
     outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
+    padding: 10px;
+    margin: 2px;
+    color: black;
     text-align: center;
-    font-size: 18px;
-    border-radius: 0 0 20px 20px;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 15px;
+    width: 80%;
+    padding-right: 15%;
+    padding-left: 15%;
+    font-family: FutureFriends;
   }
-  
-  .merchbtn:hover {
-    opacity: 0.8;
-  }
+}
+
+
+
+.scroll-container{
+border-radius: 5px;
+overflow: hidden;
+color: rgb(233, 233, 233);
+font-family: FutureFriends;
+font-size: 20px;
+}
+
+.scroll-text {
+/* animation properties */
+-moz-transform: translateX(100%);
+-webkit-transform: translateX(100%);
+transform: translateX(100%);
+
+-moz-animation: my-animation 20s linear infinite;
+-webkit-animation: my-animation 20s linear infinite;
+animation: my-animation 20s linear infinite;
+}
+
+
+
+@-webkit-keyframes my-animation {
+from { -webkit-transform: translateX(100%); }
+to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+from {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+to {
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+}
